@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+  <head>
+    <title>DinoSurf-Your Ultimate Dino Destination</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DinoSurf">
+    
+    
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    
+    <link rel="apple-touch-icon" sizes="196x196" href="favicon-196.png">  
+    <link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="favicon-167.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon-152.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="favicon-128.png">  
+    <link rel="apple-touch-icon" sizes="32x32" href="favicon-32.png">
+    
+    
+    
+    <link rel="stylesheet"
+          href="styles/desktop.css"
+          type="text/css"
+          media="all and (min-width: 768px)">
+    <link rel="stylesheet"
+          href="styles/mobile.css"
+          type="text/css"
+          media="all and (max-width: 767px)">
+    <link rel="stylesheet"
+          href="styles/print.css"
+          type="text/css"
+          media="print">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Urbanist&display=swap" rel="stylesheet"> 
+    
+    
+    <style> /*-----EMBEDDED CSS DESKTOP RULES----*/
+      #AZ_content{
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 400;
+        
+        margin: 20px;
+      }
+      
+      #AZ_content h1{
+        font-size: 1.2em;
+      }
+      
+      table{
+        border: 2px solid #ee8d5e;
+        border-collapse: collapse;
+        font-size: 0.9em;
+        width: 70%;
+        margin: auto;
+        border-spacing: 2px;
+        padding: 3px;
+      }
+      
+      table td, table th{
+        border: 2px solid #ee8d5e;
+        padding: 5px;
+        width: 30%;
+        text-align: center;
+      }
+      
+      table th{
+        text-align: center;
+        font-size: 1.1em;
+        background: linear-gradient(#fff, #deb46b);
+      }
+      
+      
+      table .linked_items a{
+        color: #000;
+        text-decoration: none;
+      }
+      
+      table .linked_items:hover{
+        background: #ffc839;
+      }
+      
+    </style> <!--EMBEDDED CSS RULES-->
+    
+  </head>
+  
+  <!--
+        ,..........   ..........,
+     ,..,'          '.'          ',..,           MEDHA MEDURI
+    ,' ,'            :            ', ',    
+   ,' ,'             :             ', ',     WEB DEVELOPMENT DIPLOMA
+  ,' ,'              :              ', ',  CAPSTONE PROJECT- HTML/CSS
+ ,' ,'............., : ,.............', ',
+,'  '............   '.'   ............'  ', Instructor - BRENT SCOTT
+ '''''''''''''''''';''';''''''''''''''''''
+                    '''
+  -->
+  
+  <body>
+    <div id="wrapper">
+     
+      <header id="header">  <!--HEADER STARTS HERE-->
+       
+        <div id="logo">  <!-- logo-->
+          <img src="images/logo.svg" alt="main_logo" width= 150 height=130>
+        </div>
+          
+        <div id="title">
+          <h1>DinoSurf</h1>   <!--font--> 
+        </div>
+          
+        <div id="header_nav">
+          <div><a href="#"> Sign In/Register </a></div>
+          <div> <a href="#">Search</a>
+          <img src="images/search-circle.svg" alt="search_icon" width="30" height="30">
+          </div>
+        </div>
+        
+      </header>
+      
+      
+      <nav id="navmenu">  <!--NAVIGATION MENU STARTS HERE-->
+       
+        <a href="#" id="menu_button">
+          <span id="topbar"></span>
+          <span id="middlebar"></span>
+          <span id="bottombar"></span>
+        </a>
+         
+        <ul id="navlist">
+          <li><a href="index.html" title="Home page">Home</a></li> <!--Home Page-->
+          <li class="urhere"><a href="AZ.html" title="Find Alphabetically">A-Z</a></li>  <!--Sorted Alaphabetically-->
+          <li><a href="Timeline.html" title="Find by Timeline">Timeline</a></li> <!--Sorted by Date-->
+          <li><a href="#" title="Find by Location">Map</a></li> 
+          <li><a href="#" title="Services offered">Services</a></li>
+          <li><a href="Shop.html" title="Shop Here">Shop</a></li> <!--- shop here -->
+          <li><a href="AboutUs.html" title="Read About Us">About Us</a></li> <!-- Aboutus, contact infor-->
+        </ul>
+          
+      
+      </nav> <!--NAVIGATION MENU ENDS HERE-->
+      
+      
+      <main id="AZ_content"> <!--A-Z PAGE CONTENT STARTS HERE-->
+        <h1>This is our Dino Directory!</h1>
+        <p>
+          This is a comprehensive list of all dinosaurs featured on this website arranged alphabetically.
+          Browse through in alphabetical order and click on the names to learn more about each dinosaur.
+        </p>
+        
+        <table>
+          <tr>
+            <th class="table_headings">Name</th>
+            <th class="table_headings">Time</th>
+            <th class="table_headings">Location</th>
+            <th class="table_headings">Type</th>
+          </tr>
+          
+          <tr>
+            <th colspan="4">A</th>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Allosaurus</a></td>
+            <td>Late Jurassic</td>
+            <td>North America</td>
+            <td>Theropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Ankylosaurus</a></td>
+            <td>Late Cretaceous</td>
+            <td>North America/Asia</td>
+            <td>Ankylosaur</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Archaeopteryx</a></td>
+            <td>Late Jurassic</td>
+            <td>Europe</td>
+            <td>Avialae</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Argentinosaurus</a></td>
+            <td>Late Cretaceous</td>
+            <td>South America</td>
+            <td>Sauropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Apatosaurus</a></td>
+            <td>Early Cretaceous</td>
+            <td>North America</td>
+            <td>Sauropod</td>
+          </tr>
+        
+          <tr>
+            <th colspan="4">B</th>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Baryonyx</a></td>
+            <td>Early Cretaceous</td>
+            <td>Europe</td>
+            <td>Theropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Brachiosaurus</a></td>
+            <td> Late Jurassic</td>
+            <td>North America/Africa</td>
+            <td>Sauropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Brontosaurus</a></td>
+            <td>Late Jurassic</td>
+            <td>North America</td>
+            <td>Sauropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Buitreraptor</a></td>
+            <td>Late Cretaceous</td>
+            <td>South America</td>
+            <td>Dromaeosaurid</td>
+          </tr>
+        
+          <tr>
+            <th colspan="4">C</th>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Coelophysis</a></td>
+            <td>Late Triassic</td>
+            <td>North America</td>
+            <td>Theropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Compsognathus</a></td>
+            <td>Late Jurassic</td>
+            <td>Europe</td>
+            <td>Theropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Corythosaurus</a></td>
+            <td>Late Cretaceous</td>
+            <td>North America</td>
+            <td>Hadrosaurid</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Cryolophosaurus</a></td>
+            <td>Early Jurassic</td>
+            <td>Antarctica</td>
+            <td>Theropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Camarasaurus</a></td>
+            <td>Late Jurassic</td>
+            <td>North America</td>
+            <td>Sauropod</td>
+          </tr>
+        
+          <tr>
+            <th colspan="4">D</th>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Dilophosaurus</a></td>
+            <td>Early Jurassic</td>
+            <td>North America</td>
+            <td>Theropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Deinonychus</a></td>
+            <td>Early Cretaceous</td>
+            <td>North America</td>
+            <td>Dromaeosaurid</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Diplodocus</a></td>
+            <td>Late Jurassic</td>
+            <td>North America</td>
+            <td>Sauropod</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Dimetrodon</a></td>
+            <td>Early Permian</td>
+            <td>North America</td>
+            <td>Synapsid</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Dryosaurus</a></td>
+            <td>Late Jurassic</td>
+            <td>North America</td>
+            <td>Ornithopod</td>
+          </tr>
+       
+          <tr>
+            <th colspan="4">E</th>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Edmontosaurus</a></td>
+            <td>Late Cretaceous</td>
+            <td>North America</td>
+            <td>Hadrosaurid</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Einiosaurus</a></td>
+            <td>Late Cretaceous</td>
+            <td>North America</td>
+            <td>Ceratopsian</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Elasmosaurus</a></td>
+            <td>Late Cretaceous</td>
+            <td>North America</td>
+            <td>Plesiosaur</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Euoplocephalus</a></td>
+            <td>Late Cretaceous</td>
+            <td>North America</td>
+            <td>Ankylosaur</td>
+          </tr>
+          <tr>
+            <td class="linked_items"><a href="#">Eoraptor</a></td>
+            <td>Late Triassic</td>
+            <td>South America</td>
+            <td>Theropod</td>
+          </tr>
+        </table>
+         
+        <table>
+          <tr>
+            <th colspan="1" class="linked_items"><a href="#"> Next page > </a></th>
+          </tr>
+        </table>
+        
+      </main>
+      
+      
+      <footer id="footer">  <!--FOOTER STARTS HERE-->
+        <ul id="footer_left">
+          <li><a href="#" title="Blog site">Blog</a></li>
+          <li><a href="#" title="Find us">Find Us</a></li>
+          <li><a href="#" title="Inquire">Inquiries</a></li>
+          <li><a href="#" title="Privacy policy">Privacy Policy</a></li>
+        </ul>
+          
+        <div id="footer_middle">
+          
+          <div id="socials">Socials</div>
+          <div id="socials_logo">
+            <a href="#" title="Go to site's instagram"><img src="images/instagram-soc.svg" alt="insta_socials" width="30" height="30"></a>
+            <a href="#" title="Go to site's linkedin profile"><img src="images/linkedin-soc.svg" alt="linkedin_socials" width="30" height="30"></a>
+            <a href="#" title="Go to site's twitter"><img src="images/twitter-soc.svg" alt="twitter_socials" width="30" height="30"></a>
+          </div>
+            
+          <div id="copyright">
+            <a href="#" title="Copyright">Copyright &copy; 2023, DinoSurf,Services Inc.</a>
+          </div>
+            
+          <div id="last_modified">
+            <script>
+              document.scripts[document.scripts.length-1].parentNode.innerHTML = "Last Modified: " + document.lastModified;
+            </script>
+          </div>
+        </div>
+          
+        <div id="footer_right" style="display: flex; flex-direction: column;">
+          <img src="images/email-newsletter.svg" alt="e-newsletter_logo" width="30" height="30">
+          <a href="#" title="Subscribe to Newsletter">Subscribe to our Newsletter!</a>
+        </div>
+        
+      </footer>
+      
+    </div>
+      
+  </body>  
+  
+</html>
