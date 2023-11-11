@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+  <head>
+    <title>DinoSurf-Your Ultimate Dino Destination</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DinoSurf">
+    
+    
+    
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    
+    <link rel="apple-touch-icon" sizes="196x196" href="favicon-196.png">  
+    <link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">  
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="favicon-167.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon-152.png">  
+    <link rel="apple-touch-icon" sizes="128x128" href="favicon-128.png">  
+    <link rel="apple-touch-icon" sizes="32x32" href="favicon-32.png">
+    
+    
+    
+    <link rel="stylesheet"
+          href="styles/desktop.css"
+          type="text/css"
+          media="all and (min-width: 768px)">
+    <link rel="stylesheet"
+          href="styles/mobile.css"
+          type="text/css"
+          media="all and (max-width: 767px)">
+    <link rel="stylesheet"
+          href="styles/print.css"
+          type="text/css"
+          media="print">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Urbanist&display=swap" rel="stylesheet"> 
+    
+  </head>
+  
+  <!--
+       
+        ,..........   ..........,
+     ,..,'          '.'          ',..,           MEDHA MEDURI
+    ,' ,'            :            ', ',    
+   ,' ,'             :             ', ',     WEB DEVELOPMENT DIPLOMA
+  ,' ,'              :              ', ',  CAPSTONE PROJECT- HTML/CSS
+ ,' ,'............., : ,.............', ',
+,'  '............   '.'   ............'  ', Instructor - BRENT SCOTT
+ '''''''''''''''''';''';''''''''''''''''''
+                    '''
+  -->
+  
+  <body>
+    <div id="wrapper">
+     
+      <header id="header">  <!--HEADER STARTS HERE-->
+       
+        <div id="logo">  <!-- logo-->
+          <img src="images/logo.svg" alt="main_logo" width= 150 height=130>
+        </div>
+          
+        <div id="title">
+          <h1>DinoSurf</h1>   <!--font--> 
+        </div>
+          
+        <div id="header_nav">
+          <div><a href="#"> Sign In/Register </a></div>
+          <div> <a href="#">Search</a>
+          <img src="images/search-circle.svg" alt="search_icon" width="30" height="30">
+          </div>
+        </div>
+        
+      </header>
+      
+      
+      <nav id="navmenu">  <!--NAVIGATION MENU STARTS HERE-->
+       
+        <a href="#" id="menu_button">
+          <span id="topbar"></span>
+          <span id="middlebar"></span>
+          <span id="bottombar"></span>
+        </a>
+         
+        <ul id="navlist">
+          <li><a href="index.html" title="Home page">Home</a></li> <!--Home Page-->
+          <li><a href="AZ.html" title="Find Alphabetically">A-Z</a></li>  <!--Sorted Alaphabetically-->
+          <li><a href="Timeline.html" title="Find by Timeline">Timeline</a></li> <!--Sorted by Date-->
+          <li><a href="#" title="Find by Location">Map</a></li> 
+          <li><a href="#" title="Services offered">Services</a></li>
+          <li><a href="Shop.html" title="Shop Here">Shop</a></li> <!--- shop here -->
+          <li class="urhere"><a href="AboutUs.html" title="Read About Us">About Us</a></li> <!-- Aboutus, contact infor-->
+        </ul>
+          
+      
+      </nav> <!--NAVIGATION MENU ENDS HERE-->
+      
+      
+      <main id="Aboutus_content">
+        <div id="about_team" class="aboutus_block">
+          <h2>Meet the Brains behind Dinosurf!</h2>
+          <p>Our founder, Dr. Sarah Johnson, is a renowned paleontologist with over 20 years of experience in the field. She has led numerous expeditions around the world and is passionate about sharing her knowledge and love of dinosaurs with others.
+          We are a team of dinosaur enthusiasts dedicated to sharing our love of these magnificent creatures with the world. Our mission is to educate and inspire young and old alike about the wonders of paleontology and the importance of preserving our planet's history.</p>
+        </div>
+        
+        <div id="contact_details" class="aboutus_block">
+          <h2>Contact Us:</h2>
+          <p>We would love to hear from you! If you have any questions, comments, or feedback, please feel free to contact us using one of the following methods:</p>
+          <ul>
+            <li>Email: <a href="#">roar@dinosurf.com</a></li>
+            <li>Phone: 1-800-555-DINO (3466)</li>
+            <li>Social Media: Follow us on <a href="#">Twitter</a>, <a href="#">Instagram</a>, and <a href="#">Facebook</a> for the latest updates and news.</li>
+          </ul>
+        </div>
+        
+        <div id="form_details" class="aboutus_block">
+          <p>You can also fill out the contact form below and we will get back to you as soon as possible.</p>
+          
+          <form action="http://www.scott-media.com/test/form_display.php"
+                method="post"
+                id="contact_form">
+           
+          <fieldset>
+            <legend>Leave your details here!</legend>
+            <p>
+              <label for="full_name" class="req">Full Name:</label>
+              <input type="text" 
+                   id="full_name"
+                   name="full_name"
+                   size="25"
+                   maxlength="45"
+                   placeholder="Type your full name here"
+                   required>
+            </p>
+            
+            <p>
+              <label for="email" class="req">Email:</label>
+              <input type="email"
+                     id="email"
+                     name="email"
+                     size="25"
+                     placeholder="Type your e-mail here"
+                     required>
+            </p>
+            
+            <p>
+              <label for="phone">Telephone:</label>
+              <input type="tel"
+                     id="phone"
+                     name="phone"
+                     size="25"
+                     placeholder="Type your contact number here">
+            </p>
+            
+            <p class="radio_buttons">Please select your age: <br>
+            
+              <input type="radio" name="age_range" id="age0_15" value="0_15">
+              <label for="age0_15">0 to 15 years</label><br>
+          
+              <input type="radio" name="age_range" id="age16_25" value="16-25">
+              <label for="age16_25">16 to 25 years</label><br>
+          
+              <input type="radio" name="age_range" id="greater_than_26" value="greater_than_26">
+              <label for="greater_than_26">26 and Above</label><br>
+              
+            </p>
+            
+            <p>
+              <label for="message" class="longlabel">Share your query:</label>
+              <textarea id="message"
+                      name="message"
+                      rows="5"
+                      cols="35"
+                      required></textarea>
+            </p>
+            
+            <button type="submit">Submit</button>
+            
+          </fieldset>
+          
+          </form>
+          
+        </div>
+        
+      </main>
+      
+      
+      <footer id="footer">  <!--FOOTER STARTS HERE-->
+        <ul id="footer_left">
+          <li><a href="#" title="Blog site">Blog</a></li>
+          <li><a href="#" title="Find us">Find Us</a></li>
+          <li><a href="#" title="Inquire">Inquiries</a></li>
+          <li><a href="#" title="Privacy policy">Privacy Policy</a></li>
+        </ul>
+          
+        <div id="footer_middle">
+          
+          <div id="socials">Socials</div>
+          <div id="socials_logo">
+            <a href="#" title="Go to site's instagram"><img src="images/instagram-soc.svg" alt="insta_socials" width="30" height="30"></a>
+            <a href="#" title="Go to site's linkedin profile"><img src="images/linkedin-soc.svg" alt="linkedin_socials" width="30" height="30"></a>
+            <a href="#" title="Go to site's twitter"><img src="images/twitter-soc.svg" alt="twitter_socials" width="30" height="30"></a>
+          </div>
+            
+          <div id="copyright">
+            <a href="#" title="Copyright">Copyright &copy; 2023, DinoSurf,Services Inc.</a>
+          </div>
+            
+          <div id="last_modified">
+            <script>
+              document.scripts[document.scripts.length-1].parentNode.innerHTML = "Last Modified: " + document.lastModified;
+            </script>
+          </div>
+        </div>
+          
+        <div id="footer_right" style="display: flex; flex-direction: column;">
+          <img src="images/email-newsletter.svg" alt="e-newsletter_logo" width="30" height="30">
+          <a href="#" title="Subscribe to Newsletter">Subscribe to our Newsletter!</a>
+        </div>
+        
+      </footer>
+      
+    </div>
+      
+  </body>  
+  
+</html>
